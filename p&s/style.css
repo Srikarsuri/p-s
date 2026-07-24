@@ -1979,3 +1979,800 @@ MOBILE MENU
     }
 
 }
+@media (max-width: 991px){
+
+    .header-buttons{
+        display:none !important;
+    }
+
+    .menu-toggle{
+        display:flex !important;
+        align-items:center;
+        justify-content:center;
+        font-size:34px;
+        color:#fff;
+        cursor:pointer;
+    }
+
+}
+@media (max-width: 991px){
+
+    .hero-buttons{
+        display:flex;
+        flex-direction:column;
+        gap:18px;
+        margin-top:30px;
+    }
+
+    .hero-buttons a,
+    .hero-buttons .gold-btn,
+    .hero-buttons .outline-btn{
+        width:100%;
+        text-align:center;
+        justify-content:center;
+    }
+
+}
+@media (max-width:991px){
+
+    .hero-left h1{
+        font-size:68px;
+        line-height:0.95;
+    }
+
+}
+/*==============================
+HERO MOBILE - PART 1
+==============================*/
+
+@media (max-width:991px){
+
+    .hero-grid{
+        display:flex;
+        flex-direction:column;
+        gap:35px;
+    }
+
+    .hero-left{
+        order:1;
+        width:100%;
+    }
+
+    .project-cards{
+        order:2;
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .lead-card{
+        order:3;
+        width:100%;
+        max-width:100%;
+        margin-top:15px;
+    }
+
+}
+@media (max-width:991px){
+
+    .project-card{
+        width:100%;
+    }
+
+    .project-card img{
+        width:100%;
+        height:260px;
+        object-fit:cover;
+    }
+
+}
+@media (max-width:991px){
+
+    .lead-card{
+        padding:28px;
+        border-radius:18px;
+    }
+
+}
+.whatsapp-btn{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    z-index:9999;
+}
+/*==========================================
+HERO MOBILE
+==========================================*/
+
+@media (max-width:991px){
+
+    .tag-hero{
+        padding-top:0;
+    }
+    
+    .hero-grid{
+        display:flex;
+        flex-direction:column;
+        gap:40px;
+    }
+    
+    .hero-left{
+        width:100%;
+        order:1;
+    }
+    
+    .hero-right{
+        width:100%;
+        order:2;
+    }
+    
+    .location-pill{
+        width:fit-content;
+        max-width:100%;
+        margin-bottom:25px;
+        font-size:14px;
+    }
+    
+    .hero-left h1{
+        font-size:64px;
+        line-height:.95;
+        margin-bottom:30px;
+    }
+    
+    .hero-text{
+        font-size:17px;
+        line-height:1.8;
+    }
+    
+    .hero-buttons{
+        display:flex;
+        flex-direction:column;
+        gap:18px;
+        margin-top:35px;
+    }
+    
+    .gold-btn-lg,
+    .outline-btn{
+        width:100%;
+        justify-content:center;
+        text-align:center;
+    }
+    
+    .project-cards{
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+        margin-top:40px;
+    }
+    
+    .project-card{
+        width:100%;
+    }
+    
+    .project-card img{
+        width:100%;
+        height:260px;
+        object-fit:cover;
+    }
+    
+    .budget-box{
+        margin-top:30px;
+    }
+    
+    .lead-card{
+        width:100%;
+        padding:30px;
+        border-radius:22px;
+    }
+    
+    .lead-card h3{
+        font-size:46px;
+        line-height:1.15;
+    }
+    
+    .lead-card input{
+        height:58px;
+    }
+    
+    .villa-options{
+        display:flex;
+        flex-direction:column;
+        gap:14px;
+    }
+    
+    .villa-options button{
+        width:100%;
+    }
+    
+    .submit-btn{
+        width:100%;
+    }
+    
+    .lead-footer{
+        display:flex;
+        flex-direction:column;
+        gap:12px;
+    }
+    
+    }
+    @media(max-width:576px){
+
+        .hero-left h1{
+            font-size:52px;
+        }
+        
+        .hero-text{
+            font-size:16px;
+        }
+        
+        .lead-card h3{
+            font-size:36px;
+        }
+        
+        }
+        /*==========================================
+SECTION SPACING
+==========================================*/
+
+@media(max-width:991px){
+
+    section{
+        overflow:hidden;
+    }
+    
+    .container{
+        width:92%;
+    }
+    
+    section{
+        padding:70px 0;
+    }
+    
+    .section-title{
+        font-size:42px;
+        line-height:1.15;
+    }
+    
+    .section-subtitle{
+        font-size:15px;
+        line-height:1.8;
+    }
+    
+    }
+    
+    /*==========================================
+    STATS
+    ==========================================*/
+    
+    @media(max-width:991px){
+    
+    .stats-grid{
+    
+        display:grid;
+    
+        grid-template-columns:1fr;
+    
+        gap:18px;
+    
+    }
+    
+    .stat-card{
+    
+        padding:28px;
+    
+        text-align:center;
+    
+    }
+    
+    .stat-card h3{
+    
+        font-size:42px;
+    
+    }
+    
+    .stat-card p{
+    
+        font-size:15px;
+    
+    }
+    
+    }
+    
+    /*==========================================
+    COMPARE SECTION
+    ==========================================*/
+    
+    @media(max-width:991px){
+    
+    .compare-wrapper{
+    
+        display:flex;
+    
+        flex-direction:column;
+    
+        gap:35px;
+    
+    }
+    
+    .compare-left{
+    
+        width:100%;
+    
+    }
+    
+    .compare-right{
+    
+        width:100%;
+    
+    }
+    
+    .compare-table{
+    
+        overflow-x:auto;
+    
+    }
+    
+    .compare-table table{
+    
+        min-width:650px;
+    
+    }
+    
+    .compare-buttons{
+    
+        display:flex;
+    
+        flex-direction:column;
+    
+        gap:16px;
+    
+    }
+    
+    .compare-buttons a{
+    
+        width:100%;
+    
+        text-align:center;
+    
+    }
+    
+    }
+    
+    /*==========================================
+    AMENITIES
+    ==========================================*/
+    
+    @media(max-width:991px){
+    
+    .amenities-grid{
+    
+        display:grid;
+    
+        grid-template-columns:1fr;
+    
+        gap:22px;
+    
+    }
+    
+    .amenity-card{
+    
+        padding:26px;
+    
+    }
+    
+    .amenity-card img{
+    
+        width:100%;
+    
+        height:230px;
+    
+        object-fit:cover;
+    
+    }
+    
+    .amenity-card h4{
+    
+        font-size:24px;
+    
+    }
+    
+    .amenity-card p{
+    
+        font-size:15px;
+    
+        line-height:1.8;
+    
+    }
+    
+    }
+    
+    /*==========================================
+    GALLERY
+    ==========================================*/
+    
+    @media(max-width:991px){
+    
+    .gallery-buttons{
+    
+        display:flex;
+    
+        flex-direction:column;
+    
+        gap:16px;
+    
+    }
+    
+    .gallery-buttons button{
+    
+        width:100%;
+    
+    }
+    
+    .gallery-grid{
+    
+        display:grid;
+    
+        grid-template-columns:1fr;
+    
+        gap:18px;
+    
+    }
+    
+    .gallery-grid img{
+    
+        width:100%;
+    
+        height:280px;
+    
+        object-fit:cover;
+    
+        border-radius:18px;
+    
+    }
+    
+    .gallery-grid .large{
+    
+        grid-column:auto;
+    
+        grid-row:auto;
+    
+    }
+    
+    }
+    
+    /*==========================================
+    SMALL DEVICES
+    ==========================================*/
+    
+    @media(max-width:576px){
+    
+    .section-title{
+    
+        font-size:34px;
+    
+    }
+    
+    .stat-card h3{
+    
+        font-size:34px;
+    
+    }
+    
+    .amenity-card h4{
+    
+        font-size:22px;
+    
+    }
+    
+    .gallery-grid img{
+    
+        height:230px;
+    
+    }
+    
+    }
+    /*==========================================
+LOCATION
+==========================================*/
+
+@media(max-width:991px){
+
+    .location-wrapper{
+    
+        display:flex;
+    
+        flex-direction:column;
+    
+        gap:35px;
+    
+    }
+    
+    .location-left,
+    .location-right{
+    
+        width:100%;
+    
+    }
+    
+    .location-right iframe{
+    
+        width:100%;
+    
+        height:320px;
+    
+        border-radius:18px;
+    
+    }
+    
+    .location-info{
+    
+        display:grid;
+    
+        grid-template-columns:1fr;
+    
+        gap:18px;
+    
+    }
+    
+    .location-card{
+    
+        padding:24px;
+    
+    }
+    
+    .location-card h4{
+    
+        font-size:22px;
+    
+    }
+    
+    .location-card p{
+    
+        font-size:15px;
+    
+        line-height:1.8;
+    
+    }
+    
+    }
+    
+    
+    /*==========================================
+    WHY BUY
+    ==========================================*/
+    
+    @media(max-width:991px){
+    
+    .why-grid{
+    
+        display:grid;
+    
+        grid-template-columns:1fr;
+    
+        gap:22px;
+    
+    }
+    
+    .why-card{
+    
+        padding:28px;
+    
+    }
+    
+    .why-card h3{
+    
+        font-size:24px;
+    
+    }
+    
+    .why-card p{
+    
+        font-size:15px;
+    
+        line-height:1.8;
+    
+    }
+    
+    }
+    
+    
+    /*==========================================
+    FINAL ENQUIRY
+    ==========================================*/
+    
+    @media(max-width:991px){
+    
+    .final-enquiry{
+    
+        padding:70px 0;
+    
+    }
+    
+    .final-wrapper{
+    
+        display:flex;
+    
+        flex-direction:column;
+    
+        gap:35px;
+    
+    }
+    
+    .final-left,
+    .final-right{
+    
+        width:100%;
+    
+    }
+    
+    .final-form{
+    
+        padding:30px;
+    
+        border-radius:22px;
+    
+    }
+    
+    .final-form input,
+    .final-form textarea,
+    .final-form select{
+    
+        width:100%;
+    
+    }
+    
+    .final-form button{
+    
+        width:100%;
+    
+    }
+    
+    }
+    
+    
+    /*==========================================
+    FOOTER
+    ==========================================*/
+    
+    @media(max-width:991px){
+    
+    .footer{
+    
+        text-align:center;
+    
+    }
+    
+    .footer-top{
+    
+        display:flex;
+    
+        flex-direction:column;
+    
+        gap:35px;
+    
+    }
+    
+    .footer-logo{
+    
+        margin:auto;
+    
+    }
+    
+    .footer-links{
+    
+        display:flex;
+    
+        flex-direction:column;
+    
+        gap:16px;
+    
+    }
+    
+    .footer-links a{
+    
+        display:block;
+    
+    }
+    
+    .footer-bottom{
+    
+        display:flex;
+    
+        flex-direction:column;
+    
+        gap:15px;
+    
+        text-align:center;
+    
+    }
+    
+    }
+    
+    
+    /*==========================================
+    GLOBAL MOBILE POLISH
+    ==========================================*/
+    
+    @media(max-width:991px){
+    
+    img{
+    
+        max-width:100%;
+    
+        height:auto;
+    
+    }
+    
+    button{
+    
+        min-height:54px;
+    
+    }
+    
+    input,
+    textarea,
+    select{
+    
+        font-size:16px;
+    }
+    
+    h1{
+    
+        word-break:normal;
+    
+    }
+    
+    .container{
+    
+        width:92%;
+    
+        margin:auto;
+    
+    }
+    
+    body{
+    
+        overflow-x:hidden;
+    
+    }
+    
+    }
+    
+    
+    /*==========================================
+    SMALL PHONES
+    ==========================================*/
+    
+    @media(max-width:576px){
+    
+    .container{
+    
+        width:90%;
+    
+    }
+    
+    .section-title{
+    
+        font-size:30px;
+    
+    }
+    
+    button{
+    
+        font-size:15px;
+    
+    }
+    
+    .location-right iframe{
+    
+        height:250px;
+    
+    }
+    
+    .footer{
+    
+        padding-bottom:90px;
+    
+    }
+    
+    }
