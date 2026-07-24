@@ -747,22 +747,56 @@ twq('config','ofnt7');
 <!-- "MY CODE STARTS HERE" -->
 <!-- ================= HERO SECTION ================= -->
 
-<section class="tag-hero">
+<section id="home" class="tag-hero">
 
     <header class="tag-header">
         <div class="container">
-
+    
             <div class="logo">
                 <img src="images/logo.png" alt="">
             </div>
-
+    
+            <!-- Desktop Menu -->
             <div class="header-buttons">
                 <a href="#">Compare Villas</a>
                 <a href="#">Gallery</a>
                 <a href="#" class="gold-btn">Get Price List</a>
             </div>
-
+    
+            <!-- Mobile Hamburger -->
+            <div class="menu-toggle" id="menuToggle">
+                ☰
+            </div>
+    
         </div>
+    
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+
+            <a href="#home">Home</a>
+        
+            <a href="#patio">Patio Villas</a>
+        
+            <a href="#santorini">Santorini Villas</a>
+        
+            <a href="#compare">Compare Villas</a>
+        
+            <a href="#amenities">Amenities</a>
+        
+            <a href="#location">Location</a>
+        
+            <a href="#gallery">Gallery</a>
+        
+            <a href="#why">Why TAG Projects</a>
+        
+            <a href="#contact">Enquiry</a>
+        
+            <a href="#" class="gold-btn">
+                Get Price List
+            </a>
+        
+        </div>
+    
     </header>
 
     <div class="container hero-grid">
@@ -802,7 +836,7 @@ twq('config','ofnt7');
 
                 <div class="project-card">
 
-                    <img src="images/patio-thumb.jpg" alt="">
+                    <img src="PATIO Villas Images/patio.jpg" alt="The Patio Villas">
 
                     <div class="project-title">
                         THE PATIO VILLAS
@@ -812,7 +846,7 @@ twq('config','ofnt7');
 
                 <div class="project-card">
 
-                    <img src="images/santorini-thumb.jpg" alt="">
+                    <img src="Santorini Images/ENTRANCE.jpg" alt="Santorini Villas">
 
                     <div class="project-title">
                         SANTORINI VILLAS
@@ -909,7 +943,7 @@ twq('config','ofnt7');
 <!-- ================= STATS BAR ================= -->
 <!-- ================= PATIO VILLAS ================= -->
 
-<section class="stats-section">
+<section id="patio" class="stats-section">
 
     <div class="container">
 
@@ -955,7 +989,7 @@ twq('config','ofnt7');
 
 <!-- ================= SANTORINI VILLAS ================= -->
 
-<section class="stats-section">
+<section id="santorini" class="stats-section">
 
     <div class="container">
 
@@ -999,7 +1033,7 @@ twq('config','ofnt7');
 
 <!-- ================= COMPARISON SECTION ================= -->
 
-<section class="comparison-section">
+<section id="compare" class="comparison-section">
 
     <div class="container">
 
@@ -1206,7 +1240,7 @@ twq('config','ofnt7');
 <!-- ================= AMENITIES ================= -->
 <!-- ================= AMENITIES ================= -->
 
-<section class="amenities-section">
+<section id="amenities" class="amenities-section">
 
     <div class="container">
 
@@ -1337,7 +1371,7 @@ twq('config','ofnt7');
 <!-- ================= LOCATION ================= -->
 <!-- ================= LOCATION ================= -->
 
-<section class="location-section">
+<section id="location" class="location-section">
 
     <div class="container">
 
@@ -1416,7 +1450,7 @@ twq('config','ofnt7');
 
 </section>
 
-<section class="elevation-section">
+<section id="gallery" class="elevation-section">
 
     <div class="container">
 
@@ -1460,7 +1494,7 @@ twq('config','ofnt7');
 </section>
 <!-- ================= WHY TAG ================= -->
 
-<section class="why-section">
+<section id="why" class="why-section">
 
     <div class="container">
 
@@ -1621,7 +1655,7 @@ twq('config','ofnt7');
 <!-- ================= FINAL ENQUIRY ================= -->
 <!-- ================= FINAL ENQUIRY ================= -->
 
-<section class="final-enquiry">
+<section id="contact" class="final-enquiry">
 
     <div class="container enquiry-grid">
     
@@ -1814,7 +1848,7 @@ facing and configuration.
 
 </footer>
 
-<!-- "MY CODE ENDS HERE" -->      
+<!-- "MY CODE ENDS HERE" -->     
                 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Jost:wght@300;400;500&display=swap');
@@ -2507,6 +2541,24 @@ if (floorPlansTrigger2) {
     
     });
     </script>
+    <script>
+
+        const menuToggle=document.getElementById("menuToggle");
+        const mobileMenu=document.getElementById("mobileMenu");
+        
+        menuToggle.addEventListener("click",function(){
+        
+            mobileMenu.classList.toggle("active");
+        
+            if(mobileMenu.classList.contains("active")){
+                menuToggle.innerHTML="✕";
+            }else{
+                menuToggle.innerHTML="☰";
+            }
+        
+        });
+        
+        </script>
 
     </body>
 </html>

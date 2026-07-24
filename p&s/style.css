@@ -95,13 +95,19 @@ HEADER
 }
 
 .tag-header{
-    margin-bottom:70px;
+    background:#0b0b0d;
+    height:80px;
+    border-bottom:1px solid rgba(255,255,255,.08);
 }
 
 .tag-header .container{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    height:100%;
+    width:92%;
+    max-width:1320px;
+    margin:0 auto;
 }
 
 .logo img{
@@ -115,7 +121,7 @@ HEADER
 }
 
 .header-buttons a{
-    color:#222;
+    color:#fff;
     font-size:15px;
     font-weight:600;
 }
@@ -1149,9 +1155,8 @@ section{
 }
 
 .header-buttons{
-    display:none;
+    display:flex !important;
 }
-
 .lead-card{
     position:relative;
     top:0;
@@ -1913,4 +1918,64 @@ body{
 /* Placeholder for inputs */
 .enquiry-form input::placeholder{
     color:#9f9f9f;
+}
+/*==========================
+MOBILE MENU
+==========================*/
+
+.menu-toggle{
+    display:none;
+    font-size:32px;
+    cursor:pointer;
+    color:#fff;
+    user-select:none;
+}
+
+.mobile-menu{
+    display:none;
+    flex-direction:column;
+    background:#111;
+    width:100%;
+    padding:20px;
+}
+
+.mobile-menu a{
+    color:#fff;
+    text-decoration:none;
+    padding:14px 0;
+    border-bottom:1px solid rgba(255,255,255,.1);
+    font-size:16px;
+}
+
+.mobile-menu .gold-btn{
+    margin-top:18px;
+    text-align:center;
+}
+
+.mobile-menu.active{
+    display:flex;
+}
+
+/* Mobile */
+
+@media(max-width:991px){
+
+    .header-buttons{
+        display:none;
+    }
+
+    .menu-toggle{
+        display:block;
+    }
+
+    .tag-header .container{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .logo img{
+        width:90px;
+    }
+
 }
